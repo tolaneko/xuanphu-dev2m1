@@ -13,7 +13,7 @@ keep_alive()
 
 
 # === CẤU HÌNH ===
-TOKEN = "7577225346:AAHKUYD_YuDbEUynDPCYLsuqBEtwAdJxQ5Q"
+TOKEN = "7577225346:AAHJyWxPvjj0VVepMMKL9MeDz2dzzqV7Ilw"
 ADMIN_ID = 6906617636 # ID admin chính
 
 activated_users = {}
