@@ -14,8 +14,7 @@ keep_alive()
 
 # === CẤU HÌNH ===
 TOKEN = "7577225346:AAHKUYD_YuDbEUynDPCYLsuqBEtwAdJxQ5Q"
-ADMIN_ID = 7527321649 # ID admin chính
-ADMIN_ID1 = 7761915412
+ADMIN_ID = 6906617636 # ID admin chính
 
 activated_users = {}
 
@@ -35,9 +34,6 @@ def save_activated_users():
 def is_admin(user_id):
     return user_id == ADMIN_ID
 
-def is_admin1(user_id):
-        return user_id == ADMIN_ID1
-    
 def check_user(user_id):
     try:
         with open("activated_users.json", "r", encoding="utf-8") as f:
